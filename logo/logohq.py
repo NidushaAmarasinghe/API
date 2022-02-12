@@ -1,6 +1,6 @@
 import requests
 
-API = 'https://api.single-developers.software/logohq?name='
+API = 'https://nidusha-slaptap/logohq?name='
 
 req = requests.post(API+input('Name : ').replace(' ','%20'))
 
